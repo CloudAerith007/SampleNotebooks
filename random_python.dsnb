@@ -27,7 +27,7 @@
           "\r",
           "# Set the number of minutes to run\r",
           "run_minutes = 70  # desired duration\r",
-          "end_time = datetime.now() + timedelta(minutes=run_minutes)  # Calculate end time\r",
+          "end_time = datetime.now() + 1 + timedelta(minutes=run_minutes)  # Calculate end time\r",
           "\r",
           "# Loop until the specified time\r",
           "while datetime.now() < end_time:\r",
