@@ -46,17 +46,9 @@
         "hideInIFrame" : false,
         "enabled" : true,
         "forms" : "[]",
-        "result" : {
-          "startTime" : 1730660025751,
-          "endTime" : 1730664231209,
-          "interpreter" : "python.low",
-          "taskStatus" : null,
-          "status" : null,
-          "results" : null,
-          "forms" : null
-        },
+        "result" : null,
         "relations" : [ ],
-        "dynamicFormParams" : "{}"
+        "dynamicFormParams" : null
       },
       {
         "row" : 0,
@@ -78,17 +70,9 @@
         "hideInIFrame" : false,
         "enabled" : true,
         "forms" : "[]",
-        "result" : {
-          "startTime" : 1730664232627,
-          "endTime" : 1730664233159,
-          "interpreter" : "md.low",
-          "taskStatus" : null,
-          "status" : null,
-          "results" : null,
-          "forms" : null
-        },
+        "result" : null,
         "relations" : [ ],
-        "dynamicFormParams" : "{}"
+        "dynamicFormParams" : null
       }
     ]
   }
