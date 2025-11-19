@@ -1,1 +1,91 @@
-[{"layout":"zeppelin","isRunnable":true,"template":"dsrgmn3y","templateConfig":"{\"visualization\":{\"filters\":[{\"_id\":1583324064459,\"type\":\"styling\",\"enabled\":true,\"conditions\":{\"operator\":\"and\",\"conditions\":[{\"property\":\"hiddenConnection\",\"operator\":\"*\",\"value\":\"\"}]},\"component\":\"edge\",\"target\":\"edge\",\"properties\":{\"colors\":[\"rgba(0, 0, 0, 0.1)\"],\"style\":[\"dashed\"],\"legendTitle\":[\"Hidden Connection\"]}},{\"_id\":1590499315755,\"type\":\"aggregation\",\"enabled\":true,\"conditions\":{\"operator\":\"and\",\"conditions\":[]},\"component\":\"vertex\",\"target\":\"vertex\",\"properties\":{},\"aggregation\":[{\"source\":\"\",\"type\":\"average\"}]}],\"version\":4}}","isEditable":true,"name":"list_users_2_1_2_1_1_1_1_1_1_1_2_1_1_2_1_1_1_1_1_1_1_3_1_1_1","description":null,"type":"low","paragraphs":[{"col":0,"visualizationConfig":null,"hideInIFrame":false,"selectedVisualization":"table","title":null,"message":["%sql","select * from all_users;"],"enabled":true,"result":{"startTime":1750928111222,"interpreter":"sql.low","endTime":1750928114056,"results":[{"message":"USERNAME\tUSER_ID\tCREATED\tCOMMON\tORACLE_MAINTAINED\tINHERITED\tDEFAULT_COLLATION\tIMPLICIT\tALL_SHARD\tCLOUD_MAINTAINED\tAPPLICATION\nSYS\t0\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAUDSYS\t8\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSTEM\t9\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSBACKUP\t2147483617\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSDG\t2147483618\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSKM\t2147483619\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSRAC\t2147483620\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nOUTLN\t13\t2025-06-22 10:35:08\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nREMOTE_SCHEDULER_AGENT\t37\t2025-06-22 10:48:20\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMADMIN_INTERNAL\t24\t2025-06-22 10:47:49\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMUSER\t25\t2025-06-22 10:47:49\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDIP\t26\t2025-06-22 10:47:53\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nXS$NULL\t2147483638\t2025-06-22 10:48:11\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDBSFWUSER\t38\t2025-06-22 10:48:20\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORACLE_OCM\t42\t2025-06-22 10:48:58\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYS$UMF\t51\t2025-06-22 10:52:28\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDBSNMP\t62\t2025-06-22 10:54:08\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPPQOSSYS\t63\t2025-06-22 10:54:09\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMCATUSER\t68\t2025-06-22 10:54:12\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGGSYS\t69\t2025-06-22 10:54:16\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nXDB\t71\t2025-06-22 10:55:19\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nLBACSYS\t76\t2025-06-22 10:57:26\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMTSSYS\t95\t2025-06-22 12:43:05\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nADMIN\t96\t2025-06-22 12:44:29\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nDVSYS\t1279990\t2025-06-22 12:50:03\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDCAT_ADMIN\t109\t2025-06-22 12:47:44\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nADB_APP_STORE\t111\t2025-06-22 12:47:47\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nGGADMIN\t112\t2025-06-22 12:47:47\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nADBSNMP\t114\t2025-06-22 12:47:51\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nCTXSYS\t115\t2025-06-22 12:48:01\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMDSYS\t117\t2025-06-22 12:48:45\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMDDATA\t118\t2025-06-22 12:48:45\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDVF\t120\t2025-06-22 12:50:04\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nC##ADP$SERVICE\t123\t2025-06-22 12:50:32\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_PUBLIC_USER\t131\t2025-06-22 12:51:26\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_METADATA\t132\t2025-06-22 12:51:26\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_PLSQL_GATEWAY\t136\t2025-06-22 12:52:12\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPEX_240200\t137\t2025-06-22 12:54:59\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nFLOWS_FILES\t138\t2025-06-22 12:54:59\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPEX_PUBLIC_ROUTER\t139\t2025-06-22 12:54:59\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGRAPH$PROXY_USER\t144\t2025-06-22 13:26:40\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nODI$PROXY\t156\t2025-06-22 13:28:03\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nODI_REPO_USER\t158\t2025-06-22 13:28:03\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSSB\t164\t2025-06-23 12:59:04\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSH\t165\t2025-06-23 12:59:05\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nOML$PROXY\t166\t2025-06-23 13:16:46\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nPYQSYS\t171\t2025-06-23 14:14:28\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nRQSYS\t173\t2025-06-23 14:18:25\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nVIVIDH\t175\t2025-06-23 17:39:58\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nTEST\t176\t2025-06-23 17:50:48\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nOMLUSER\t177\t2025-06-25 12:12:08\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\n","type":"TABLE"}],"taskStatus":"SUCCESS","forms":"[]","status":"SUCCESS"},"sizeX":0,"hideCode":false,"width":0,"hideResult":false,"dynamicFormParams":"{}","row":0,"hasTitle":false,"hideVizConfig":false,"hideGutter":true,"relations":[],"forms":"[]"},{"col":0,"visualizationConfig":null,"hideInIFrame":false,"selectedVisualization":"raw","title":null,"message":["%python","print(\"Hello\");"],"enabled":true,"result":{"startTime":1750928114566,"interpreter":"python.low","endTime":1750928120962,"results":[{"message":"Hello, this change is made in OML\n","type":"TEXT"}],"taskStatus":"SUCCESS","forms":"[]","status":"SUCCESS"},"sizeX":0,"hideCode":false,"width":0,"hideResult":false,"dynamicFormParams":"{}","row":0,"hasTitle":false,"hideVizConfig":false,"hideGutter":true,"relations":[],"forms":"[]"}],"version":"7","snapshot":false,"tags":null}]
+[
+  {
+    "name" : "list_users_2_1_2_1_1_1_1_1_1_1_2_1_1_2_1_1_1_1_1_1_1_3_1_1_1",
+    "description" : null,
+    "tags" : null,
+    "version" : "7",
+    "layout" : "zeppelin",
+    "type" : "low",
+    "snapshot" : false,
+    "isEditable" : true,
+    "isRunnable" : true,
+    "template" : "dsrgmn3y",
+    "templateConfig" : "{\"visualization\":{\"filters\":[{\"_id\":1583324064459,\"type\":\"styling\",\"enabled\":true,\"conditions\":{\"operator\":\"and\",\"conditions\":[{\"property\":\"hiddenConnection\",\"operator\":\"*\",\"value\":\"\"}]},\"component\":\"edge\",\"target\":\"edge\",\"properties\":{\"colors\":[\"rgba(0, 0, 0, 0.1)\"],\"style\":[\"dashed\"],\"legendTitle\":[\"Hidden Connection\"]}},{\"_id\":1590499315755,\"type\":\"aggregation\",\"enabled\":true,\"conditions\":{\"operator\":\"and\",\"conditions\":[]},\"component\":\"vertex\",\"target\":\"vertex\",\"properties\":{},\"aggregation\":[{\"source\":\"\",\"type\":\"average\"}]}],\"version\":4}}",
+    "paragraphs" : [
+      {
+        "row" : 0,
+        "col" : 0,
+        "sizeX" : 0,
+        "width" : 0,
+        "title" : null,
+        "hasTitle" : false,
+        "message" : [
+          "%sql",
+          "select username, user_id from all_users;"
+        ],
+        "selectedVisualization" : "table",
+        "visualizationConfig" : null,
+        "hideCode" : false,
+        "hideResult" : false,
+        "hideGutter" : true,
+        "hideVizConfig" : false,
+        "hideInIFrame" : false,
+        "enabled" : true,
+        "forms" : "[]",
+        "result" : {
+          "startTime" : 1750928111222,
+          "endTime" : 1750928114056,
+          "interpreter" : "sql.low",
+          "taskStatus" : "SUCCESS",
+          "status" : "SUCCESS",
+          "results" : [
+            {
+              "message" : "USERNAME\tUSER_ID\tCREATED\tCOMMON\tORACLE_MAINTAINED\tINHERITED\tDEFAULT_COLLATION\tIMPLICIT\tALL_SHARD\tCLOUD_MAINTAINED\tAPPLICATION\nSYS\t0\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAUDSYS\t8\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSTEM\t9\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSBACKUP\t2147483617\t2025-06-22 10:35:06\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSDG\t2147483618\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSKM\t2147483619\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYSRAC\t2147483620\t2025-06-22 10:35:07\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nOUTLN\t13\t2025-06-22 10:35:08\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nREMOTE_SCHEDULER_AGENT\t37\t2025-06-22 10:48:20\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMADMIN_INTERNAL\t24\t2025-06-22 10:47:49\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMUSER\t25\t2025-06-22 10:47:49\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDIP\t26\t2025-06-22 10:47:53\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nXS$NULL\t2147483638\t2025-06-22 10:48:11\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDBSFWUSER\t38\t2025-06-22 10:48:20\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORACLE_OCM\t42\t2025-06-22 10:48:58\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSYS$UMF\t51\t2025-06-22 10:52:28\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDBSNMP\t62\t2025-06-22 10:54:08\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPPQOSSYS\t63\t2025-06-22 10:54:09\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGSMCATUSER\t68\t2025-06-22 10:54:12\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGGSYS\t69\t2025-06-22 10:54:16\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nXDB\t71\t2025-06-22 10:55:19\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nLBACSYS\t76\t2025-06-22 10:57:26\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMTSSYS\t95\t2025-06-22 12:43:05\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nADMIN\t96\t2025-06-22 12:44:29\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nDVSYS\t1279990\t2025-06-22 12:50:03\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDCAT_ADMIN\t109\t2025-06-22 12:47:44\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nADB_APP_STORE\t111\t2025-06-22 12:47:47\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nGGADMIN\t112\t2025-06-22 12:47:47\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nADBSNMP\t114\t2025-06-22 12:47:51\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nCTXSYS\t115\t2025-06-22 12:48:01\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMDSYS\t117\t2025-06-22 12:48:45\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nMDDATA\t118\t2025-06-22 12:48:45\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nDVF\t120\t2025-06-22 12:50:04\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nC##ADP$SERVICE\t123\t2025-06-22 12:50:32\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_PUBLIC_USER\t131\t2025-06-22 12:51:26\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_METADATA\t132\t2025-06-22 12:51:26\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nORDS_PLSQL_GATEWAY\t136\t2025-06-22 12:52:12\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPEX_240200\t137\t2025-06-22 12:54:59\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nFLOWS_FILES\t138\t2025-06-22 12:54:59\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nAPEX_PUBLIC_ROUTER\t139\t2025-06-22 12:54:59\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nGRAPH$PROXY_USER\t144\t2025-06-22 13:26:40\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nODI$PROXY\t156\t2025-06-22 13:28:03\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nODI_REPO_USER\t158\t2025-06-22 13:28:03\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSSB\t164\t2025-06-23 12:59:04\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nSH\t165\t2025-06-23 12:59:05\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nOML$PROXY\t166\t2025-06-23 13:16:46\tNO\tY\tNO\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nPYQSYS\t171\t2025-06-23 14:14:28\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nRQSYS\t173\t2025-06-23 14:18:25\tYES\tY\tYES\tUSING_NLS_COMP\tNO\tNO\tYES\tNO\nVIVIDH\t175\t2025-06-23 17:39:58\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nTEST\t176\t2025-06-23 17:50:48\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\nOMLUSER\t177\t2025-06-25 12:12:08\tNO\tN\tNO\tUSING_NLS_COMP\tNO\tNO\tNO\tNO\n",
+              "type" : "TABLE"
+            }
+          ],
+          "forms" : "[]"
+        },
+        "relations" : [ ],
+        "dynamicFormParams" : "{}"
+      },
+      {
+        "row" : 0,
+        "col" : 0,
+        "sizeX" : 0,
+        "width" : 0,
+        "title" : null,
+        "hasTitle" : false,
+        "message" : [
+          "%python",
+          "print(\"Hello\");"
+        ],
+        "selectedVisualization" : "raw",
+        "visualizationConfig" : null,
+        "hideCode" : false,
+        "hideResult" : false,
+        "hideGutter" : true,
+        "hideVizConfig" : false,
+        "hideInIFrame" : false,
+        "enabled" : true,
+        "forms" : "[]",
+        "result" : {
+          "startTime" : 1750928114566,
+          "endTime" : 1750928120962,
+          "interpreter" : "python.low",
+          "taskStatus" : "SUCCESS",
+          "status" : "SUCCESS",
+          "results" : [
+            {
+              "message" : "Hello, this change is made in OML\n",
+              "type" : "TEXT"
+            }
+          ],
+          "forms" : "[]"
+        },
+        "relations" : [ ],
+        "dynamicFormParams" : "{}"
+      }
+    ]
+  }
+]
