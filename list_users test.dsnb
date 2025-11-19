@@ -21,7 +21,7 @@
         "hasTitle" : false,
         "message" : [
           "%sql",
-          "select username from all_users;"
+          "select * from all_users;"
         ],
         "selectedVisualization" : "table",
         "visualizationConfig" : null,
