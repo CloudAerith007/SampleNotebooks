@@ -1,6 +1,6 @@
 [
   {
-    "name" : "list_users",
+    "name" : "list_users_1",
     "description" : null,
     "tags" : null,
     "version" : "7",
@@ -21,7 +21,7 @@
         "hasTitle" : false,
         "message" : [
           "%sql",
-          "select * from all_users;"
+          "select username from all_users;"
         ],
         "selectedVisualization" : "table",
         "visualizationConfig" : null,
