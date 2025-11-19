@@ -20,7 +20,7 @@
         "title" : null,
         "hasTitle" : false,
         "message" : [
-          "%md",
+          "%md test",
           "",
           "This is NEW"
         ],
