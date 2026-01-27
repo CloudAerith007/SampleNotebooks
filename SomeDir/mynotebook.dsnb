@@ -1,1 +1,1 @@
-{}
+[{"layout":"jupyter","isRunnable":true,"template":null,"templateConfig":null,"isEditable":true,"name":"mynotebook","description":null,"type":"low","paragraphs":[{"col":0,"visualizationConfig":null,"hideInIFrame":false,"selectedVisualization":null,"title":null,"message":["%sql select 1 from dual"],"enabled":true,"result":null,"sizeX":0,"hideCode":false,"width":0,"hideResult":false,"dynamicFormParams":null,"row":0,"hasTitle":false,"hideVizConfig":false,"hideGutter":true,"relations":[],"forms":null}],"version":"7","snapshot":false,"tags":null}]
